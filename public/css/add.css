@@ -17,7 +17,8 @@
     font-weight: bold;
 }
 
-#add-form-container form input, #add-form-container form textarea {
+#add-form-container form input,
+#add-form-container form textarea {
     border: 2px solid #ccc;
     background-color: #f8f9fa;
 }
@@ -25,7 +26,7 @@
 #form-box {
     padding: 50px;
     margin-bottom: 50px;
-    box-shadow: 0 1px 5px rgba(0,0,0,.15);
+    box-shadow: 0 1px 5px rgba(0, 0, 0, .15);
     border-radius: 4px;
     background-color: #fff;
 }
@@ -45,4 +46,17 @@
     color: #f03e3e;
     font-weight: bold;
     border-color: #f03e3e;
+}
+
+/* responsivo */
+
+@media (max-width: 481px) {
+    #form-box h2 {
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    #form-box button {
+        width: 100%;
+    }
 }
